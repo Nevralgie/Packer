@@ -1,0 +1,32 @@
+subscription_id = "393e3de3-0900-4b72-8f1b-fb3b1d6b97f1"
+tenant_id = "7349d3b2-951f-41be-877e-d8ccd9f3e73c"
+client_id = "2c4aff9f-9d3c-4fc4-ad2b-1ab0c5ce5a4f"
+client_secret = "bJM8Q~TAfMN0X4Oadis5GzG~HHvB0KQD7aOhEbhZ"
+# Ubuntu
+image_name_ubuntu = "ubuntu-pkr-demo3333"
+image_version_ubuntu = "20231101.0.01"
+resource_group_name = "kube-cluster-Tom3"
+storage_account = "tompackervirtualmachines"
+source_image_publisher = "Canonical"
+source_image_offer = "0001-com-ubuntu-server-jammy"
+source_image_sku = "22_04-lts-gen2"
+#capture_container_name ="images"
+#capture_name_prefix = "packer"
+location = "France Central"
+vm_size ="Standard_B1s"
+
+# Windows 
+
+image_name_windows = "windows-pkr-demo"
+image_version_windows = "latest"
+source_image_sku_w = "2019-Datacenter"
+source_image_publisher_w = "MicrosoftWindowsServer"
+source_image_offer_w = "WindowsServer"
+vm_size_w = "Standard_B2ms"
+
+image_name_rhel = "rhel-pkr-demo"
+image_version_rhel = "latest"
+source_image_sku_r= "8-lvm-gen2"
+source_image_publisher_r = "RedHat"
+source_image_offer_r = "RHEL"
+vm_size_r = "Standard_B2ms"
